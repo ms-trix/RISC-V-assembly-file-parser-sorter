@@ -1,0 +1,4 @@
+Number: 123
+Temperature: -15 degrees
+Values: 0, 5, 10, 15, 20
+Result = 999!
