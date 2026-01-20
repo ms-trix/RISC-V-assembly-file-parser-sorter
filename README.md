@@ -35,7 +35,7 @@ sudo apt-get install gcc-riscv64-linux-gnu
 sudo apt-get install qemu-user
 ```
 
-## 🚀 Building
+##  Building
 
 ### Using Makefile
 
@@ -50,7 +50,7 @@ riscv64-linux-gnu-as -march=rv32i -mabi=ilp32 -o programa.o src/programa.s
 riscv64-linux-gnu-ld -m elf32lriscv -o programa programa.o
 ```
 
-## ▶️ Running
+##  Running
 
 ```bash
 # Using QEMU
@@ -60,7 +60,7 @@ qemu-riscv32 ./programa tests/test_simple.txt
 ./programa tests/test_simple.txt
 ```
 
-## 📊 Example
+##  Example
 
 **Input file** (`test_simple.txt`):
 ```
@@ -90,7 +90,7 @@ Ju pasirodymo daznumas:
 Rasta neskaiciu simboliu: 10
 ```
 
-## 🧪 Testing
+##  Testing
 
 Run all test cases:
 ```bash
@@ -104,7 +104,7 @@ qemu-riscv32 ./programa tests/test_negative.txt
 qemu-riscv32 ./programa tests/test_mixed.txt
 ```
 
-## 📖 Algorithm Details
+##  Algorithm Details
 
 ### Parsing Algorithm
 - Reads file in 4KB chunks
